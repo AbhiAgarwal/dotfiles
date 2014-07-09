@@ -1,4 +1,7 @@
 # Add `~/bin` to the `$PATH`
+
+export GOPATH=/Users/Abhi/Go
+PATH="$PATH:$GOPATH/bin"
 export PATH="$HOME/bin:$PATH"
 
 export CFLAGS=-Qunused-arguments
@@ -63,31 +66,6 @@ export PATH
 
 # Enables Canopy to be used in the environment. This is good if you want to use things like opencv
 # VIRTUAL_ENV_DISABLE_PROMPT=1 source /Users/Abhi/Library/Enthought/Canopy_64bit/User/bin/activate
-
-# personal aliases
-# C/C++
-alias c++g='g++ -std=c++11'
-alias copt='c++g -O3'
-alias c++='clang++ -std=c++11 -stdlib=libc++'
-alias c+='g++'
-alias crepl='/Users/Abhi/Desktop/Code/igcc/igcc'
-
-# Othershops
-alias texshop='open -a TeXshop'
-alias light="open -a LightPaper"
-
-# Haskell
-alias haskelli='ghci'
-alias haskell='ghc'
-
-# Javascript
-alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
-
-# Whatsapp
-alias whatsapp='python /Users/Abhi/Desktop/Whatsapp/yowsup-master/src/whatsapp.py'
-
-# SSH
-alias techatnyu='ssh -i /Users/Abhi/Desktop/TechATNYU/depl_key.txt -l root 23.253.213.18'
 
 [ -s "/Users/Abhi/.nvm/nvm.sh" ] && . "/Users/Abhi/.nvm/nvm.sh" # This loads nvm
 
