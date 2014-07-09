@@ -1,3 +1,21 @@
+# personal aliases
+alias c++='clang++ -std=c++11 -stdlib=libc++'
+alias c+='g++'
+
+alias safari='open -a Safari'
+alias texshop='open -a TeXshop'
+alias light='open -a LightPaper'
+alias wri='open -a MacDown'
+
+alias c++g='g++ -std=c++11'
+alias copt='c++g -O3'
+alias techatnyu='ssh -i /Users/Abhi/Desktop/TechATNYU/depl_key.txt -l root 23.253.213.18'
+alias haskelli='ghci'
+alias haskell='ghc'
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
+alias crepl='/Users/Abhi/Desktop/Code/igcc/igcc'
+alias whatsapp='python /Users/Abhi/Desktop/Whatsapp/yowsup-master/src/whatsapp.py'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
