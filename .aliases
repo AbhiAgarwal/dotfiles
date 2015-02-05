@@ -1,6 +1,19 @@
+# ssh
+alias nyusw='ssh root@192.237.249.194'
+alias abhiapi='ssh root@api.abhi.co'
+alias techatnyu='ssh -i /Users/Abhi/Desktop/TechATNYU/depl_key.txt -l root 23.253.213.18'
+
 # personal aliases
 alias c++='clang++ -std=c++11 -stdlib=libc++'
 alias c+='g++'
+alias rust='rustc'
+alias n='node'
+alias sml='/usr/local/smlnj/bin/sml'
+
+alias gp='git push -u origin master'
+
+#alias redis='/Users/abhiagarwal/Desktop/Programming/redis-2.8.14/src/redis-server'
+#alias redis-cli='/Users/abhiagarwal/Desktop/Programming/redis-2.8.14/src/redis-cli'
 
 alias safari='open -a Safari'
 alias texshop='open -a TeXshop'
@@ -9,7 +22,6 @@ alias wri='open -a MacDown'
 
 alias c++g='g++ -std=c++11'
 alias copt='c++g -O3'
-alias techatnyu='ssh -i /Users/Abhi/Desktop/TechATNYU/depl_key.txt -l root 23.253.213.18'
 alias haskelli='ghci'
 alias haskell='ghc'
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
@@ -23,6 +35,9 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+alias class="cd /Users/abhiagarwal/Desktop/NYU"
+
+# Definitions
 
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
