@@ -1,0 +1,25 @@
+[core]
+	whitespace = space-before-tab,trailing-space,cr-at-eol
+	ignorecase = false
+	excludesfile = /Users/abhi/.gitignore_global
+[diff]
+	renames = copy
+[pack]
+	threads = 0
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[user]
+	name = Abhi Agarwal
+	email = a@b.com
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
