@@ -104,3 +104,10 @@ export PATH
 
 # Pebble SDK
 export PATH="/Users/abhiagarwal/pebble-dev/PebbleSDK-current/bin:$PATH"
+
+# Python extras
+
+pyclean () {
+        find . -type f -name "*.py[co]" -delete
+        find . -type d -name "__pycache__" -delete
+}
