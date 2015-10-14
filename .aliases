@@ -1,7 +1,6 @@
 # ssh
-alias nyusw='ssh root@192.237.249.194'
-alias abhiapi='ssh root@api.abhi.co'
-alias techatnyu='ssh -i /Users/Abhi/Desktop/TechATNYU/depl_key.txt -l root 23.253.213.18'
+alias hstart="/usr/local/Cellar/hadoop/2.7.1/sbin/start-dfs.sh;/usr/local/Cellar/hadoop/2.7.1/sbin/start-yarn.sh"
+alias hstop="/usr/local/Cellar/hadoop/2.7.1/sbin/stop-yarn.sh;/usr/local/Cellar/hadoop/2.7.1/sbin/stop-dfs.sh"
 
 # personal aliases
 alias c++='clang++ -std=c++11 -stdlib=libc++'
